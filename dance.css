@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header_title {
+    display: flex;
+    color: rgb(240, 255, 255)40, 255, 255;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Anonymous Pro", sans-serif;
+    background: linear-gradient(rgb(229, 32, 255), rgb(242, 255, 67));
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(practicum_html/fonts/AnonymousPro-Bold.ttf);
+}
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(practicum_html/fonts/AnonymousPro-Regular.ttf)
+}
+.header_name {
+    color: rgb(9, 255, 0);
+    text-shadow: 7px -5px rgb(255, 158, 13);
+    font-family: Anonymous Pro, sans-serif;
+}
+
+.card {
+    display: flex;
+    background-color: rgb(229, 32, 255);
+    font-family: "Anonymous Pro", sans-serif;
+    gap: 30px 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.one_card {
+    background-color: rgb(9, 255, 0);
+    border-radius: 30px;
+    max-width: 200px;
+}
+
+.img {
+    border-radius: 30px;
+}
+
+h3 {
+    padding-left: 50px;
+}
+
+
+p {
+    padding-left: 25px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    font-family: Anonymous Pro, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(9, 255, 0)
+}
+
+.lalala {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    color:rgb(229, 32, 255);
+}
+.card {
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
